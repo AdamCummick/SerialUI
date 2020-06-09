@@ -64,7 +64,8 @@ typedef Print SinkBase;
 #ifdef DESKTOP_COMPILE
 typedef GlobalSerialWrapper SourceType;
 #else
-typedef HardwareSerial SourceType;
+// typedef HardwareSerial SourceType;
+typedef Serial_ SourceType;
 #endif
 
 
